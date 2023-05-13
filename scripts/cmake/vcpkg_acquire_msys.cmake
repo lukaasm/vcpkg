@@ -352,8 +352,8 @@ function(vcpkg_acquire_msys out_msys_root)
     )
 
     z_vcpkg_acquire_msys_declare_package(
-        URL "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-python-numpy-1.20.3-1-any.pkg.tar.zst"
-        SHA512 ce73d4270942f61963e8307f6bec945d14e3774455684842b8fde836b19a4e9cbf8efd0663ffb28ad872493db70fa3a4e14bd0b248c2067199f4fee94e80e77e
+        URL "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-python-numpy-1.21.0-4-any.pkg.tar.zst"
+        SHA512 345a67e1ca9704edf482279eb08f0bbc874ea47bcdcd04b132a798042219fbd65b302a4936fbaae202a405481d77e803218d9d822e5f253e10b4d8fe08490bde
         DEPS mingw-w64-x86_64-openblas mingw-w64-x86_64-python
     )
     z_vcpkg_acquire_msys_declare_package(
